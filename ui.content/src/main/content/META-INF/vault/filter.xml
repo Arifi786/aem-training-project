@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/genc-aem-training" mode="merge"/>
+    <filter root="/content/genc-aem-training" mode="merge"/>
+    <filter root="/content/dam/genc-aem-training/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/genc-aem-training" mode="merge"/>
+</workspaceFilter>

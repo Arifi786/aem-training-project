@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='my-clientlib'}" />
+</head>
+ 
+<body >
+<p class="a1">${properties.text}</p>
+<p class="a2">${properties.disc}</p>
+<img class="image" src='${properties.img}'/>
+</body>
+</html>

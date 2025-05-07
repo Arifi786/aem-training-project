@@ -1,0 +1,18 @@
+<!-- Task -2-->
+<h1>Without ParaMeter</h1>
+<sly data-sly-template.without>
+<p>Data Sly Template Without Parameter</p>
+</sly>
+ 
+<sly data-sly-call="${without}"></sly>
+ 
+ 
+<h1> With ParaMeter </h1>
+<sly data-sly-template.with="${@id, name, collage, place}">
+<p>Emp ID: ${id}, Name: ${name}, Collage: ${collage}, Place: ${place}</p>
+</sly>
+
+<sly data-sly-call="${with @ id='2400108', name='Mohammad Arif', collage='Ptu', place='Jalandhar'}"></sly>
+
+
+

@@ -1,0 +1,10 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='my-clientlib'}" />
+ 
+<sly data-sly-use.model="com.project.genc.aem.training.core.core.models.CompositeMultifield">
+<div data-sly-list.item="${model.multifieldItems}">
+<div>
+<i><p>Employee Name: ${item.text}</p></i>
+<i><p>Employee Address: ${item.alt @context='html'}</p></i>
+</div>
+</div>
+</sly>

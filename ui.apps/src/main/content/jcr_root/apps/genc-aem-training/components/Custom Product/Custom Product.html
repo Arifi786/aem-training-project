@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Component</title>
+    <style>
+        .product-image {
+            width: 40%;
+            height: 40%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .product-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="product-component">
+        <img src="${properties.image}" alt="${properties.altText}" class="product-image"/>
+        <h2 class="product-name">${properties.productName}</h2>
+        <h3 class="product-category">${properties.productCategory}</h3>
+        <p class="product-description">${properties.productDescription}</p>
+    </div>
+</body>

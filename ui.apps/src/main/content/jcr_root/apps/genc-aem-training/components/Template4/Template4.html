@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+.left{
+ 
+  justify-self: start;
+ 
+}
+ 
+.right{
+ 
+  justify-self: end;
+ 
+}
+</style>
+</head>
+<body>
+<div data-sly-test="${properties.layout == 'textimag'}">
+<p class="left">${properties.text}</p>
+<div class="right"><img src='${properties.img}'/></div>
+</div>
+<div data-sly-test="${properties.layout == 'imagetext'}">
+<p class="right">${properties.text}</p>
+<div class="left"><img src='${properties.img}'/></div>
+</div>
+</body>
+</html>

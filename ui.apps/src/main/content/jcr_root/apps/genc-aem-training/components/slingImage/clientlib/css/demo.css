@@ -1,0 +1,5 @@
+.image {
+  border: 5px solid transparent; /* Transparent base border */
+  border-image: linear-gradient(to right, #ff7e5f, #feb47b) 1; /* Gradient effect */
+  border-radius: 10px; /* Slight rounding for aesthetics */
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/genc-aem-training/clientlibs"/>
+    <filter root="/apps/genc-aem-training/components"/>
+    <filter root="/apps/genc-aem-training/i18n"/>
+</workspaceFilter>

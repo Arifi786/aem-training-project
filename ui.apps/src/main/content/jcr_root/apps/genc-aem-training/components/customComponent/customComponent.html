@@ -1,0 +1,13 @@
+
+
+<div class="custom-component">
+    <h2 class="custom-component__title">${Properties.text}</h2>
+    <p class="custom-component__description">${Properties.description}</p>
+    <img src="${Properties.image}" class="custom-component__image">
+</div>
+
+<sly data-sly-use.clientlib="/libs/granite/slightly/templates/clientlib.html"
+     data-sly-call="${clientLib.js @ categories='customComponent'}"
+     data-sly-call="${clientLib.css @ categories='customComponent'}"/>
+
+
